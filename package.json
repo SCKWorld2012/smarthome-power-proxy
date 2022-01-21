@@ -1,0 +1,18 @@
+{
+  "name": "smarthome-power-metrics-proxy",
+  "version": "1.0.0",
+  "description": "A proxy service to access FHEM power metrics from a website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prettyhome Team",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.0.1"
+  }
+}
